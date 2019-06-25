@@ -8,6 +8,6 @@ public class SceneController : MonoBehaviour
 {
     public void ButtonClicked()
     {
-        SceneManager.LoadScene("BattleScene");
+        SceneManager.LoadScene("SelectScene");
     }
 }
