@@ -4259,7 +4259,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.9339623, g: 0.7507615, b: 0.374466, a: 0.019607844}
+  m_BackGroundColor: {r: 0.9339623, g: 0.3367699, b: 0.101326115, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -4437,9 +4437,6 @@ GameObject:
   - component: {fileID: 1755499699}
   - component: {fileID: 1755499698}
   - component: {fileID: 1755499697}
-  - component: {fileID: 1755499731}
-  - component: {fileID: 1755499730}
-  - component: {fileID: 1755499729}
   - component: {fileID: 1755499991}
   - component: {fileID: 1755499990}
   - component: {fileID: 1755499989}
@@ -4708,6 +4705,44 @@ GameObject:
   - component: {fileID: 1755499970}
   - component: {fileID: 1755499891}
   - component: {fileID: 1755499885}
+  - component: {fileID: 1755500008}
+  - component: {fileID: 1755500007}
+  - component: {fileID: 1755500006}
+  - component: {fileID: 1755500005}
+  - component: {fileID: 1755500004}
+  - component: {fileID: 1755500003}
+  - component: {fileID: 1755500002}
+  - component: {fileID: 1755500001}
+  - component: {fileID: 1755500000}
+  - component: {fileID: 1755499731}
+  - component: {fileID: 1755499730}
+  - component: {fileID: 1755499729}
+  - component: {fileID: 1755500034}
+  - component: {fileID: 1755500033}
+  - component: {fileID: 1755500032}
+  - component: {fileID: 1755500031}
+  - component: {fileID: 1755500030}
+  - component: {fileID: 1755500029}
+  - component: {fileID: 1755500028}
+  - component: {fileID: 1755500027}
+  - component: {fileID: 1755500026}
+  - component: {fileID: 1755500025}
+  - component: {fileID: 1755500024}
+  - component: {fileID: 1755500023}
+  - component: {fileID: 1755500022}
+  - component: {fileID: 1755500021}
+  - component: {fileID: 1755500020}
+  - component: {fileID: 1755500019}
+  - component: {fileID: 1755500018}
+  - component: {fileID: 1755500017}
+  - component: {fileID: 1755500016}
+  - component: {fileID: 1755500015}
+  - component: {fileID: 1755500014}
+  - component: {fileID: 1755500013}
+  - component: {fileID: 1755500012}
+  - component: {fileID: 1755500011}
+  - component: {fileID: 1755500010}
+  - component: {fileID: 1755500009}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4729,11 +4764,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2408.8877, y: -974.1421}
+  scrollPos: {x: -1655.6226, y: -1304.7439}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.54999995
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4741,8 +4776,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1755499900}
-  selectedCommands: []
+  - {fileID: 1755499737}
+  selectedCommands:
+  - {fileID: 1755500009}
   variables:
   - {fileID: 1755499675}
   - {fileID: 1755499735}
@@ -5025,7 +5061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1683.4926
     y: -416
-    width: 137.27274
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5518,7 +5554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2362.2495
     y: 215.13623
-    width: 148.18182
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5576,7 +5612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165.49237
     y: 261.06158
-    width: 148.18182
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5619,7 +5655,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3192.0046
     y: 202.79437
-    width: 148.18182
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5662,7 +5698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.89136
     y: 233.23169
-    width: 148.18182
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5705,7 +5741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1715.8267
     y: 225.60962
-    width: 148.18182
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5752,9 +5788,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2358.5774
-    y: 385.1292
-    width: 156.66669
+    x: 2360.6182
+    y: 397.37408
+    width: 143.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5806,7 +5842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1710.9257
     y: 423.96448
-    width: 128.78789
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5837,7 +5873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.1243
     y: 449.9619
-    width: 149.39395
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5868,7 +5904,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3198.6404
     y: 383.6404
-    width: 144.54547
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5898,8 +5934,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 160.08185
-    y: 436.23367
-    width: 155.45456
+    y: 438.15674
+    width: 140.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6386,7 +6422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 159.37637
     y: 753.9812
-    width: 155.45456
+    width: 140.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6588,9 +6624,16 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1755499688}
-  - {fileID: 1755499731}
-  - {fileID: 1755499730}
-  - {fileID: 1755499729}
+  - {fileID: 1755500008}
+  - {fileID: 1755500034}
+  - {fileID: 1755500007}
+  - {fileID: 1755500033}
+  - {fileID: 1755500005}
+  - {fileID: 1755500032}
+  - {fileID: 1755500006}
+  - {fileID: 1755500031}
+  - {fileID: 1755500004}
+  - {fileID: 1755500030}
   - {fileID: 1755499690}
 --- !u!114 &1755499688
 MonoBehaviour:
@@ -7427,7 +7470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.0553
     y: 1486.4218
-    width: 155.45456
+    width: 140.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7459,7 +7502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.64778
     y: 1238.2262
-    width: 155.45456
+    width: 140.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7624,7 +7667,7 @@ MonoBehaviour:
   indentLevel: 0
   text: I was born in Japan.
   description: 
-  targetBlock: {fileID: 1755499719}
+  targetBlock: {fileID: 1755499716}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7674,7 +7717,7 @@ MonoBehaviour:
   indentLevel: 0
   text: There is a lot of bones.
   description: 
-  targetBlock: {fileID: 1755499716}
+  targetBlock: {fileID: 1755499719}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -7784,7 +7827,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.95276
     y: 1019.9304
-    width: 155.45456
+    width: 140.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7827,7 +7870,7 @@ MonoBehaviour:
   - {fileID: 1755499725}
 --- !u!114 &1755499729
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7837,9 +7880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 128
+  itemId: 439
   indentLevel: 0
-  storyText: 5.Cheer up.
+  storyText: "Q4.\nDo you think you can coexist with me?\n\uFF08\u79C1\u3068\u3042\u306A\u305F\u304C\u5171\u5B58\u3067\u304D\u308B\u3068\u601D\u3044\u307E\u3059\u304B\uFF1F\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7854,7 +7897,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1755499730
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7864,13 +7907,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 127
+  itemId: 438
   indentLevel: 0
-  storyText: '3.I was born in Japna.
-
-    4.Ok. Do you mean this?
-
-'
+  storyText: "A.\nWe are promoting forestry preservation\n(\u68EE\u6797\u4FDD\u5168\u3092\u4FC3\u9032\u3057\u307E\u3059)"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7885,7 +7924,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1755499731
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7895,13 +7934,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 126
+  itemId: 437
   indentLevel: 0
-  storyText: '1.Nice to meet you too.
-
-    2.I''m fine.
-
-'
+  storyText: "Q4.\nAre there any good way to restore the jungle?\n(\u68EE\u3092\u5FA9\u8208\u3055\u305B\u308B\u4F55\u304B\u3044\u3044\u65B9\u6CD5\u306F\u306A\u3044\u3067\u3059\u304B\uFF1F)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7988,11 +8023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 376
   indentLevel: 0
-  storyText: '3.No,way.
-
-    4.I think that I can do it if I discuss.
-
-'
+  storyText: "Q2.\nHow is the environment here?\n\uFF08\u3053\u3053\u306E\u74B0\u5883\u306F\u3069\u3046\u3067\u3059\u304B\uFF1F\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8032,8 +8063,15 @@ MonoBehaviour:
   commandList:
   - {fileID: 1755499741}
   - {fileID: 1755499740}
+  - {fileID: 1755500014}
   - {fileID: 1755499736}
+  - {fileID: 1755500013}
   - {fileID: 1755499739}
+  - {fileID: 1755500012}
+  - {fileID: 1755499729}
+  - {fileID: 1755500011}
+  - {fileID: 1755500010}
+  - {fileID: 1755500009}
   - {fileID: 1755499738}
 --- !u!114 &1755499738
 MonoBehaviour:
@@ -8070,7 +8108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 377
   indentLevel: 0
-  storyText: 5..I like the world and want to protect it.
+  storyText: "Q3.\nThat is because any creature rejects something different from itself.\n(\u305D\u308C\u306F\u3069\u3093\u306A\u751F\u304D\u7269\u3082\u81EA\u5206\u3068\u9055\u3046\u3082\u306E\u3092\u62D2\u7D76\u3059\u308B\u304B\u3089\u3067\u3059\u3002)\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8097,9 +8135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 375
   indentLevel: 0
-  storyText: '1.Yes ,this is the earth that we living.
-
-    2.It is a planet where the nature and technology coexist.'
+  storyText: "Q1.\nIs this the earth?\n\uFF08\u3053\u3053\u304C\u5730\u7403\u3067\u3059\u304B\uFF1F\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8153,7 +8189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 410
   indentLevel: 0
-  storyText: 5.good idea. Anytime is fine.Because I am not working.
+  storyText: "Q3.\nWould you like to go and have some tea?\n(\u304A\u8336\u3057\u307E\u305B\u3093\u304B\uFF1F)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8180,11 +8216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 409
   indentLevel: 0
-  storyText: '3.Sounds good. I recommend this store.
-
-    4.I have been it. It was very beautiful.
-
-'
+  storyText: "Q2.\nWhat are you going to do now?\n(\u4ECA\u304B\u3089\u4F55\u3092\u3059\u308B\u306E\u3067\u3059\u304B\uFF1F)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8211,8 +8243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 408
   indentLevel: 0
-  storyText: "1.I don\u2019t know because I am a tourist.\n2.I am going to take a
-    break.\n"
+  storyText: "Q1.\nPlease tell me the way.\n(\u9053\u3092\u6559\u3048\u3066\u304F\u3060\u3055\u3044)\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9028,7 +9059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 389
   indentLevel: 0
-  storyText: 5.I wish that you would be a pretty girl.
+  storyText: "Q3.\nBy the way. What is your favorite dog food?\n\uFF08\u3068\u3053\u308D\u3067\u3001\u304A\u6C17\u306B\u5165\u308A\u306E\u30C9\u30C3\u30B0\u30D5\u30FC\u30C9\u306F\u4F55\u3067\u3059\u304B\uFF1F\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9055,11 +9086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 388
   indentLevel: 0
-  storyText: '3.Well...I have never eaten dog food
-
-    4.Humans have not eatn bones!maybe...
-
-'
+  storyText: "Q2.\nLet's go to a place where you can calm down and talk.\r\n(\u3069\u3053\u304B\u843D\u3061\u7740\u3051\u308B\u5834\u6240\u306B\u884C\u304D\u307E\u3057\u3087\u3046)\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9086,11 +9113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 387
   indentLevel: 0
-  storyText: '1.Oh...I can hear.
-
-    2.Shure,Let''s go park nearby.
-
-'
+  storyText: "Q1.\nCan you hear me?\n(\u805E\u3053\u3048\u307E\u3059\u304B\uFF1F\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9157,8 +9180,15 @@ MonoBehaviour:
   commandList:
   - {fileID: 1755499761}
   - {fileID: 1755499760}
+  - {fileID: 1755500024}
   - {fileID: 1755499759}
+  - {fileID: 1755500023}
   - {fileID: 1755499758}
+  - {fileID: 1755500022}
+  - {fileID: 1755500001}
+  - {fileID: 1755500021}
+  - {fileID: 1755500000}
+  - {fileID: 1755500020}
   - {fileID: 1755499757}
 --- !u!114 &1755499763
 MonoBehaviour:
@@ -9195,7 +9225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 383
   indentLevel: 0
-  storyText: 5.We are promoting forest conservation measures.
+  storyText: "Q3.\nWhy has the destruction of forest advanced?\n(\u306A\u3093\u3067\u68EE\u6797\u7834\u58CA\u304C\u9032\u3093\u3060\u306E\u3067\u3059\u304B)\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9222,9 +9252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 382
   indentLevel: 0
-  storyText: '3.Because some of the everyday products we use are made by felled trees.
-
-    4.Planting trees will restore the jungle, but it takes a very long time.'
+  storyText: "Q2.\nWhy is there no jungle?\n(\u306A\u305C\u30B8\u30E3\u30F3\u30B0\u30EB\u304C\u306A\u3044\u306E\u3067\u3059\u304B\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9251,11 +9279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 381
   indentLevel: 0
-  storyText: '1.There is no jungle near here.
-
-    2.Because deforestation was done.
-
-'
+  storyText: "Q1.\nExcuse me.Where is the jungle nearby?\n\uFF08\u8FD1\u304F\u306E\u30B8\u30E3\u30F3\u30B0\u30EB\u306F\u3069\u3053\u3067\u3059\u304B\uFF09\r\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9322,8 +9346,15 @@ MonoBehaviour:
   commandList:
   - {fileID: 1755499767}
   - {fileID: 1755499766}
+  - {fileID: 1755500019}
   - {fileID: 1755499765}
+  - {fileID: 1755500018}
   - {fileID: 1755499764}
+  - {fileID: 1755500017}
+  - {fileID: 1755499731}
+  - {fileID: 1755500016}
+  - {fileID: 1755500015}
+  - {fileID: 1755499730}
   - {fileID: 1755499763}
 --- !u!114 &1755499769
 MonoBehaviour:
@@ -9387,7 +9418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1044.7347
+    x: 1040.7347
     y: 2006.1932
     width: 120
     height: 40
@@ -9400,8 +9431,15 @@ MonoBehaviour:
   commandList:
   - {fileID: 1755499770}
   - {fileID: 1755499744}
+  - {fileID: 1755500029}
   - {fileID: 1755499743}
+  - {fileID: 1755500028}
   - {fileID: 1755499742}
+  - {fileID: 1755500027}
+  - {fileID: 1755500003}
+  - {fileID: 1755500026}
+  - {fileID: 1755500002}
+  - {fileID: 1755500025}
   - {fileID: 1755499769}
 --- !u!114 &1755499772
 MonoBehaviour:
@@ -12563,7 +12601,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1755499885
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12711,7 +12749,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1755499891
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12900,7 +12938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3182.3745
     y: 996.393
-    width: 144.54547
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12932,7 +12970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3186.257
     y: 686.32355
-    width: 144.54547
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12965,7 +13003,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3206.9663
     y: 1209.083
-    width: 144.54547
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12996,7 +13034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3227.935
     y: 1399.9001
-    width: 144.54547
+    width: 132.66666
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13027,7 +13065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2371.804
     y: 1427.4229
-    width: 156.66669
+    width: 143.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13057,7 +13095,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2348.1018
     y: 1253.7329
-    width: 156.66669
+    width: 143.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13087,7 +13125,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2377.2102
     y: 993.6115
-    width: 156.66669
+    width: 143.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13116,8 +13154,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2384.3408
-    y: 738.721
-    width: 156.66669
+    y: 740.76184
+    width: 143.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13147,7 +13185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1690.5651
     y: 1393.5033
-    width: 128.78789
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13178,7 +13216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1667.3734
     y: 1190.5872
-    width: 128.78789
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13208,7 +13246,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1678.6985
     y: 946.38794
-    width: 128.78789
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13239,7 +13277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1676.1985
     y: 731.96484
-    width: 128.78789
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15027,7 +15065,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1755499970
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15506,7 +15544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1022.1222
     y: 1467.6542
-    width: 149.39395
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15538,7 +15576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1006.511
     y: 1229.2404
-    width: 149.39395
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15572,7 +15610,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 978.75806
     y: 979.6295
-    width: 149.39395
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15602,7 +15640,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 977.9795
     y: 707.8406
-    width: 149.39395
+    width: 135.33334
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15619,7 +15657,7 @@ MonoBehaviour:
   - {fileID: 1755499972}
 --- !u!114 &1755499992
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15640,7 +15678,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1755499993
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15661,7 +15699,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1755499994
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15682,7 +15720,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1755499995
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15703,7 +15741,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1755499996
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15724,7 +15762,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1755499997
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15752,7 +15790,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1755499998
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15779,7 +15817,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1755499999
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15792,6 +15830,952 @@ MonoBehaviour:
   itemId: 417
   indentLevel: 0
   storyText: "\u5B87\u5B99\u4EBA\u300CI need to know about this land.\u300D\n\u3053\u306E\u5730\u306B\u3064\u3044\u3066\u77E5\u308B\u5FC5\u8981\u304C\u3042\u308B\u3002"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 436
+  indentLevel: 0
+  storyText: "Q5.\nWhat do you think if I became human?\n\uFF08\u79C1\u304C\u4EBA\u9593\u306B\u306A\u3063\u305F\u3089\u3069\u3046\u601D\u3044\u307E\u3059\u304B\uFF1F\uFF09\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 435
+  indentLevel: 0
+  storyText: "Q4.\nThen. Have you ever eaten bones?\n\uFF08\u9AA8\u306F\uFF1F\uFF09\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500002
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 434
+  indentLevel: 0
+  storyText: "Q5.\nWhen is convenient for you?\n(\u3044\u3064\u306A\u3089\u90FD\u5408\u304C\u3044\u3044\u3067\u3059\u304B\uFF1F)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500003
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 433
+  indentLevel: 0
+  storyText: "Q4.\nHave you been to Kiyomizudera?\n(\u6E05\u6C34\u5BFA\u306B\u884C\u3063\u305F\u3053\u3068\u306F\u3042\u308A\u307E\u3059\u304B\uFF1F)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500004
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 432
+  indentLevel: 0
+  storyText: "Q5.\nI was solded by my parent.\n(\u89AA\u306B\u53F1\u3089\u308C\u307E\u3057\u305F\u3002)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500005
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 431
+  indentLevel: 0
+  storyText: "Q3.\nWhere were you born?\n(\u3069\u3053\u51FA\u8EAB\u3067\u3059\u304B\uFF1F)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500006
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 430
+  indentLevel: 0
+  storyText: "Q4.\nCould you get that?\n(\u3042\u308C\u3092\u53D6\u3063\u3066\u3082\u3089\u3048\u307E\u3059\u304B\uFF1F)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500007
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 429
+  indentLevel: 0
+  storyText: "Q2.\nHow are you?\n(\u8ABF\u5B50\u306F\u3069\u3046\u3067\u3059\u304B\uFF1F)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500008
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 428
+  indentLevel: 0
+  storyText: "Q1.\nNice to meet you.\n(\u304A\u4F1A\u3044\u3067\u304D\u3066\u5149\u6804\u3067\u3059\u3002)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 465
+  indentLevel: 0
+  storyText: "A.\nI like this planet and want to protect it.\n\uFF08\u597D\u304D\u3067\u3059\u3002\u305D\u3057\u3066\u3001\u5B88\u308A\u305F\u3044\u3068\u601D\u3063\u3066\u3044\u307E\u3059\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 464
+  indentLevel: 0
+  storyText: "Q5.\nWhat do you think about this planet?\n\uFF08\u3053\u306E\u5730\u7403\u306B\u3064\u3044\u3066\u3069\u3046\u601D\u3044\u307E\u3059\u304B\uFF1F\uFF09\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 463
+  indentLevel: 0
+  storyText: "A.\nI think that we can do it if we discuss\n\uFF08\u8A71\u3057\u5408\u3048\u3070\u53EF\u80FD\u3060\u3068\u601D\u3044\u307E\u3059\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 462
+  indentLevel: 0
+  storyText: "A.\nNo,way!.\n\uFF08\u307E\u3055\u304B\uFF01\uFF09\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 461
+  indentLevel: 0
+  storyText: "A.\nIt is a planet where the nature and technology coexist.\n\uFF08\u81EA\u7136\u3068\u6280\u8853\u304C\u5171\u5B58\u3057\u3066\u3044\u307E\u3059\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 460
+  indentLevel: 0
+  storyText: "A.\nYes ,this is the earth that we live on.\n\uFF08\u305D\u3046\u3067\u3059\u3002\u3053\u3053\u304C\u79C1\u305F\u3061\u306E\u4F4F\u3080\u661F\u3001\u5730\u7403\u3067\u3059\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 459
+  indentLevel: 0
+  storyText: "Q5.\nWhat do human do for the jungle?\n(\u4EBA\u9593\u306F\u68EE\u306E\u305F\u3081\u306B\u4F55\u304C\u3067\u304D\u307E\u3059\u304B)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 458
+  indentLevel: 0
+  storyText: "A.\nYes. Planting trees will restore the jungle, but it will take a
+    very long time.\n(\u3042\u308A\u307E\u3059\u3002\u690D\u6797\u3067\u30B8\u30E3\u30F3\u30B0\u30EB\u304C\u623B\u308B\u3067\u3057\u3087\u3046\u3002\u3057\u304B\u3057\u3001\u3068\u3066\u3082\u6642\u9593\u304C\u304B\u304B\u308A\u307E\u3059)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 457
+  indentLevel: 0
+  storyText: "A.\nBecause we, human need trees for our daily lives.\n(\u79C1\u305F\u3061\u4EBA\u9593\u306E\u751F\u6D3B\u306B\u6728\u304C\u5FC5\u8981\u3060\u304B\u3089\u3067\u3059)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 456
+  indentLevel: 0
+  storyText: "A.\nIt is because of deforestation.\n(\u68EE\u6797\u4F10\u63A1\u306E\u305F\u3081\u3067\u3059)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 455
+  indentLevel: 0
+  storyText: "A.\nThere is no jungle near here.\n(\u8FD1\u304F\u306B\u30B8\u30E3\u30F3\u30B0\u30EB\u306F\u3054\u3056\u3044\u307E\u305B\u3093\uFF09\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 454
+  indentLevel: 0
+  storyText: "A.\nI think you would be a pretty girl.\n\uFF08\u304D\u3063\u3068\u304B\u308F\u3044\u3044\u5973\u306E\u5B50\u306B\u306A\u308B\u3068\u601D\u3044\u307E\u3059\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 453
+  indentLevel: 0
+  storyText: "A.\nHumans do not eat bones.\n\uFF08\u4EBA\u306F\u9AA8\u3092\u98DF\u3079\u307E\u305B\u3093\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 452
+  indentLevel: 0
+  storyText: "A.\nWell... I have never eaten dog food.\n\uFF08\u3048\u3048\u3068\u3001\u30C9\u30C3\u30B0\u30D5\u30FC\u30C9\u306F\u98DF\u3079\u305F\u3053\u3068\u306F\u3042\u308A\u307E\u305B\u3093\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 451
+  indentLevel: 0
+  storyText: "A.\nSure. Let's go to a park nearby.\n(\u3044\u3044\u3067\u3059\u3088\u3002\u8FD1\u304F\u306E\u516C\u5712\u306B\u884C\u304D\u307E\u3057\u3087\u3046\uFF09"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 450
+  indentLevel: 0
+  storyText: "A.\nOh... I can hear.\n(\u805E\u3053\u3048\u307E\u3059)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 449
+  indentLevel: 0
+  storyText: "A.\nGood idea. Anytime is fine. Because I am not working.\n(\u3044\u3044\u3067\u3059\u306D\u3002\u3044\u3064\u3067\u3082\u3044\u3044\u3067\u3059\u3088\u3002\u79C1\u306F\u7121\u8077\u3067\u3059\u304B\u3089\u3002)\r\n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 448
+  indentLevel: 0
+  storyText: "A.\nYes, I have. It was very beautiful.\n(\u306F\u3044\u3001\u3042\u308A\u307E\u3059\u3002\u3068\u3066\u3082\u304D\u308C\u3044\u3067\u3057\u305F\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 447
+  indentLevel: 0
+  storyText: "A.\nSounds good. I recommend this store.\n(\u3044\u3044\u3067\u3059\u306D\u3002\u3053\u306E\u5E97\u304C\u304A\u3059\u3059\u3081\u3067\u3059\u3088\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 446
+  indentLevel: 0
+  storyText: "A.\nI am going to take a break.\n(\u4F11\u61A9\u3057\u3088\u3046\u304B\u3068\u601D\u3063\u3066\u3044\u307E\u3059\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 445
+  indentLevel: 0
+  storyText: "A.\nI don't know because I am a tourist.\n(\u79C1\u306F\u65C5\u884C\u8005\u306A\u306E\u3067\u5206\u304B\u308A\u307E\u305B\u3093\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 444
+  indentLevel: 0
+  storyText: "A.\nCheer up!\n(\u5143\u6C17\u51FA\u3057\u3066\u304F\u3060\u3055\u3044)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 443
+  indentLevel: 0
+  storyText: "A.\nOk. Do you mean this?\n(\u5206\u304B\u308A\u307E\u3057\u305F\u3002\u3053\u308C\u3067\u3059\u304B\uFF1F)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 442
+  indentLevel: 0
+  storyText: "A.\nI was born in Japan.\n(\u65E5\u672C\u51FA\u8EAB\u3067\u3059\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 441
+  indentLevel: 0
+  storyText: "A.\nI'm fine.\n(\u5143\u6C17\u3067\u3059\u3002)"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755500034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 440
+  indentLevel: 0
+  storyText: "A.\nNice to meet you too.\n(\u304A\u4F1A\u3044\u3067\u304D\u3066\u79C1\u3082\u5149\u6804\u3067\u3059\u3002)"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
