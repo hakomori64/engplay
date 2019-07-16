@@ -261,8 +261,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14205678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17000008, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
+  m_LocalPosition: {x: 0.053, y: 0, z: 0}
+  m_LocalScale: {x: 1.4028422, y: 1.1999233, z: 1}
   m_Children: []
   m_Father: {fileID: 124251791}
   m_RootOrder: 0
@@ -306,7 +306,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 6, y: 10}
   m_EdgeRadius: 0
 --- !u!212 &14205682
 SpriteRenderer:
@@ -2905,8 +2905,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164824680}
   m_LocalRotation: {x: -0.009075585, y: -0, z: -0, w: 0.9999589}
-  m_LocalPosition: {x: -0.17, y: -0.96, z: -0.01}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalPosition: {x: 0.14, y: -0.88, z: 0.61}
+  m_LocalScale: {x: 1.43, y: 1.326, z: 1}
   m_Children: []
   m_Father: {fileID: 692503557}
   m_RootOrder: 0
@@ -3703,7 +3703,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 7, y: 10}
   m_EdgeRadius: 0
 --- !u!212 &1453788075
 SpriteRenderer:
@@ -4063,8 +4063,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689089136}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.17000008, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0.25, y: -0.08, z: 0}
+  m_LocalScale: {x: 1.751921, y: 1.4215529, z: 1}
   m_Children: []
   m_Father: {fileID: 471017163}
   m_RootOrder: 0
@@ -4108,7 +4108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 6, y: 10}
   m_EdgeRadius: 0
 --- !u!212 &1689089140
 SpriteRenderer:
@@ -4259,7 +4259,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_BackGroundColor: {r: 0.9339623, g: 0.7507615, b: 0.374466, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -4697,6 +4697,17 @@ GameObject:
   - component: {fileID: 1755499855}
   - component: {fileID: 1755499849}
   - component: {fileID: 1755499843}
+  - component: {fileID: 1755499999}
+  - component: {fileID: 1755499998}
+  - component: {fileID: 1755499997}
+  - component: {fileID: 1755499996}
+  - component: {fileID: 1755499995}
+  - component: {fileID: 1755499994}
+  - component: {fileID: 1755499993}
+  - component: {fileID: 1755499992}
+  - component: {fileID: 1755499970}
+  - component: {fileID: 1755499891}
+  - component: {fileID: 1755499885}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4718,11 +4729,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -2596.4495, y: -1414.7523}
+  scrollPos: {x: -2408.8877, y: -974.1421}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.48999998
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4730,9 +4741,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1755499901}
-  selectedCommands:
-  - {fileID: 1755499811}
+  - {fileID: 1755499900}
+  selectedCommands: []
   variables:
   - {fileID: 1755499675}
   - {fileID: 1755499735}
@@ -5015,7 +5025,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1683.4926
     y: -416
-    width: 137.07483
+    width: 137.27274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5508,7 +5518,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2362.2495
     y: 215.13623
-    width: 137.07483
+    width: 148.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5566,7 +5576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165.49237
     y: 261.06158
-    width: 137.07483
+    width: 148.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5609,7 +5619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3192.0046
     y: 202.79437
-    width: 137.07483
+    width: 148.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5652,7 +5662,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.89136
     y: 233.23169
-    width: 137.07483
+    width: 148.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5695,7 +5705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1715.8267
     y: 225.60962
-    width: 137.07483
+    width: 148.18182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5744,7 +5754,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2358.5774
     y: 385.1292
-    width: 141.15646
+    width: 156.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5796,7 +5806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1710.9257
     y: 423.96448
-    width: 120
+    width: 128.78789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5827,7 +5837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.1243
     y: 449.9619
-    width: 134.35374
+    width: 149.39395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5856,9 +5866,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3200.6812
-    y: 381.5996
-    width: 128.91156
+    x: 3198.6404
+    y: 383.6404
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5888,8 +5898,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 160.08185
-    y: 433.00787
-    width: 141.15646
+    y: 436.23367
+    width: 155.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6162,7 +6172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: Nice to meet you
+  storyText: "\u5973\u6027\u300CNice to meet you\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6322,7 +6332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: How are you?
+  storyText: "\u5973\u6027\u300CHow are you?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6374,9 +6384,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 161.41719
-    y: 749.8996
-    width: 141.15646
+    x: 159.37637
+    y: 753.9812
+    width: 155.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6385,6 +6395,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499996}
   - {fileID: 1755499669}
   - {fileID: 1755499679}
   - {fileID: 1755499693}
@@ -7233,7 +7244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: "I was scolded by my parent...\n\u89AA\u306B\u6012\u3089\u308C\u307E\u3057\u305F..."
+  storyText: "\u5973\u6027\u300CI was scolded by my parent...\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7260,7 +7271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: Could you get that?
+  storyText: "\u5973\u6027\u300CCould you get that?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7414,9 +7425,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 155.09612
-    y: 1484.381
-    width: 141.15646
+    x: 153.0553
+    y: 1486.4218
+    width: 155.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7425,6 +7436,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499994}
   - {fileID: 1755499703}
   - {fileID: 1755499708}
   - {fileID: 1755499707}
@@ -7447,7 +7459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 151.64778
     y: 1238.2262
-    width: 141.15646
+    width: 155.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7456,6 +7468,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499995}
   - {fileID: 1755499714}
   - {fileID: 1755499709}
   - {fileID: 1755499713}
@@ -7557,7 +7570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  storyText: Where were you born?
+  storyText: "\u5973\u6027\u300CWhere were you born?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7769,9 +7782,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 153.99358
-    y: 1017.8896
-    width: 141.15646
+    x: 151.95276
+    y: 1019.9304
+    width: 155.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10400,7 +10413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 325
   indentLevel: 0
-  storyText: What do you think about this world.
+  storyText: "\u5B87\u5B99\u4EBA\u300CWhat do you think about this planet.\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10527,7 +10540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 320
   indentLevel: 0
-  storyText: "I wish I had met you earlier\n\u3082\u3063\u3068\u65E9\u304F\u4F1A\u3044\u305F\u304B\u3063\u305F\u3002"
+  storyText: "\u5B87\u5B99\u4EBA\u300CI wish I had met you earlier\u300D\n\u3082\u3063\u3068\u65E9\u304F\u4F1A\u3044\u305F\u304B\u3063\u305F\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10554,7 +10567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 319
   indentLevel: 0
-  storyText: Do you think you can coexist with me?
+  storyText: "\u5B87\u5B99\u4EBA\u300CDo you think you can coexist with me?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10681,7 +10694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 314
   indentLevel: 0
-  storyText: "Don't say such stupid things. Stop lying.\n\u3070\u304B\u306A\u3053\u3068\u3044\u3046\u306A\u3002\u3046\u305D\u306F\u3084\u3081\u308D\u3002"
+  storyText: "\u5B87\u5B99\u4EBA\u300CDon't say such stupid things. Stop lying.\u300D\n\u3070\u304B\u306A\u3053\u3068\u3044\u3046\u306A\u3002\u3046\u305D\u306F\u3084\u3081\u308D\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10708,8 +10721,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 313
   indentLevel: 0
-  storyText: "By the way, I will teach you why I tried to conquer the planet. That
-    is because any creature rejects something different from itself.\n\u3068\u3053\u308D\u3067\u3001\u306A\u305C\u79C1\u304C\u60D1\u661F\u3092\u5F81\u670D\u3057\u3088\u3046\u3068\u3057\u305F\u304B\u6559\u3048\u3066\u3084\u308D\u3046\u3002\u305D\u308C\u306F\u3069\u3093\u306A\u751F\u304D\u7269\u3082\u81EA\u5206\u3068\u9055\u3046\u3082\u306E\u3092\u62D2\u7D76\u3059\u308B\u304B\u3089\u3067\u3042\u308B\u3002"
+  storyText: "\u5B87\u5B99\u4EBA\u300CBy the way, I will teach you why I tried to
+    conquer the planet.\u300D\n\u3068\u3053\u308D\u3067\u3001\u306A\u305C\u79C1\u304C\u60D1\u661F\u3092\u5F81\u670D\u3057\u3088\u3046\u3068\u3057\u305F\u304B\u6559\u3048\u3066\u3084\u308D\u3046\u3002\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10836,7 +10849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 308
   indentLevel: 0
-  storyText: "It's a good planet.\n\u3044\u3044\u60D1\u661F\u3060"
+  storyText: "\u5B87\u5B99\u4EBA\u300CIt's a good planet.\u300D\n\u3044\u3044\u60D1\u661F\u3060"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10863,7 +10876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 307
   indentLevel: 0
-  storyText: How is the environment here?
+  storyText: "\u5B87\u5B99\u4EBA\u300CHow is the environment here?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10990,8 +11003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 302
   indentLevel: 0
-  storyText: "I came here to conquer. I need to know about this land.If you tell me,
-    I will missout you.\n\u5F81\u670D\u3057\u306B\u6765\u305F\u3002\u3053\u306E\u5730\u306B\u3064\u3044\u3066\u77E5\u308B\u5FC5\u8981\u304C\u3042\u308B\u3002\u6559\u3048\u308C\u3070\u898B\u9003\u3057\u3066\u3084\u308D\u3046\u3002"
+  storyText: "\u5B87\u5B99\u4EBA\u300CI came here to conquer. \u300D\n\u5F81\u670D\u3057\u306B\u6765\u305F\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11018,7 +11030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 301
   indentLevel: 0
-  storyText: Is this the earth?
+  storyText: "\u5B87\u5B99\u4EBA\u300CIs this the earth?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11172,7 +11184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 295
   indentLevel: 0
-  storyText: What do human do for the jungle?
+  storyText: "\u30B4\u30EA\u30E9\u300CWhat do human do for the jungle?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11363,7 +11375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 289
   indentLevel: 0
-  storyText: Are there any good way to restore the jungle?
+  storyText: "\u30B4\u30EA\u30E9\u300CAre there any good way to restore the jungle?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11555,7 +11567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 283
   indentLevel: 0
-  storyText: Why has the destruction of forest advanced?
+  storyText: "\u30B4\u30EA\u30E9\u300CWhy has the destruction of forest advanced?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11746,7 +11758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 277
   indentLevel: 0
-  storyText: Why is there no jungle?
+  storyText: "\u30B4\u30EA\u30E9\u300CWhy is there no jungle?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -11937,7 +11949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 271
   indentLevel: 0
-  storyText: Excuse me.Where is the jungle nearby?
+  storyText: "\u30B4\u30EA\u30E9\u300CExcuse me.Where is the jungle nearby?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12064,9 +12076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 266
   indentLevel: 0
-  storyText: "\u254B\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501
-    \          \u254B\n\u2503\u3042\u3000\u3084\u305B\u3044\u306E                       \u2503\n\u2503\u3054\u308A\u3089\u3000\u304C\u3000\u3068\u3073\u3060\u3057\u3066\u304D\u305F\uFF01\u2503\n\u254B\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501
-    \           \u254B"
+  storyText: "\u3042\u3000\u3084\u305B\u3044\u306E\n\u3054\u308A\u3089\u3000\u304C\u3000\u3068\u3073\u3060\u3057\u3066\u304D\u305F\uFF01"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12093,7 +12103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 265
   indentLevel: 0
-  storyText: What do you think if I became human?
+  storyText: "\u72AC\u300CWhat do you think if I became human?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12284,7 +12294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 259
   indentLevel: 0
-  storyText: Then. Have you ever eaten bones?
+  storyText: "\u72AC\u300CThen. Have you ever eaten bones?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12411,7 +12421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 411
   indentLevel: 0
-  storyText: "OK, Let's go inside.\n\u3088\u3057\u3001\u4E2D\u306B\u5165\u308A\u307E\u3057\u3087\u3046\u3002"
+  storyText: "\u821E\u5993\u300COK, Let's go inside.\u300D\n\u3088\u3057\u3001\u4E2D\u306B\u5165\u308A\u307E\u3057\u3087\u3046\u3002"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12438,7 +12448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 253
   indentLevel: 0
-  storyText: By the way. What is your favorite dog food?
+  storyText: "\u72AC\u300CBy the way. What is your favorite dog food?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12551,6 +12561,27 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1755499885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 427
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 466029866}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1755499886
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12565,7 +12596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 0
-  storyText: Let's go to a place where you can calm down and talk.
+  storyText: "\u72AC\u300CLet's go to a place where you can calm down and talk.\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12678,6 +12709,27 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1755499891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 426
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 466029866}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1755499892
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -12692,7 +12744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 241
   indentLevel: 0
-  storyText: Can you hear me?
+  storyText: "\u72AC\u300CCan you hear me?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12847,8 +12899,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 3182.3745
-    y: 992.75665
-    width: 128.91156
+    y: 996.393
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12859,6 +12911,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1755499825}
   - {fileID: 1755499820}
+  - {fileID: 1755499997}
   - {fileID: 1755499824}
   - {fileID: 1755499823}
   - {fileID: 1755499822}
@@ -12877,9 +12930,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3188.0752
-    y: 684.5054
-    width: 128.91156
+    x: 3186.257
+    y: 686.32355
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12889,6 +12942,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1755499831}
+  - {fileID: 1755499999}
+  - {fileID: 1755499998}
   - {fileID: 1755499826}
   - {fileID: 1755499830}
   - {fileID: 1755499829}
@@ -12910,7 +12965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3206.9663
     y: 1209.083
-    width: 128.91156
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12941,7 +12996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3227.935
     y: 1399.9001
-    width: 128.91156
+    width: 144.54547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12971,8 +13026,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2371.804
-    y: 1425.3821
-    width: 141.15646
+    y: 1427.4229
+    width: 156.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13001,8 +13056,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2348.1018
-    y: 1257.8146
-    width: 141.15646
+    y: 1253.7329
+    width: 156.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13032,7 +13087,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2377.2102
     y: 993.6115
-    width: 141.15646
+    width: 156.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13060,9 +13115,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2386.3816
-    y: 734.63934
-    width: 141.15646
+    x: 2384.3408
+    y: 738.721
+    width: 156.66669
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13092,7 +13147,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1690.5651
     y: 1393.5033
-    width: 120
+    width: 128.78789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13101,6 +13156,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499885}
   - {fileID: 1755499868}
   - {fileID: 1755499872}
   - {fileID: 1755499871}
@@ -13120,9 +13176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1673.4957
-    y: 1184.4648
-    width: 120
+    x: 1667.3734
+    y: 1190.5872
+    width: 128.78789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13152,7 +13208,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1678.6985
     y: 946.38794
-    width: 120
+    width: 128.78789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13161,6 +13217,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499891}
   - {fileID: 1755499880}
   - {fileID: 1755499884}
   - {fileID: 1755499883}
@@ -13182,7 +13239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1676.1985
     y: 731.96484
-    width: 120
+    width: 128.78789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14547,7 +14604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: "I want to see the beautiful scenery with you.\n\u7F8E\u3057\u3044\u666F\u8272\u3092\u3042\u306A\u305F\u3068\u898B\u306B\u884C\u304D\u305F\u3044\u3067\u3059\u3002\n"
+  storyText: "\u821E\u5993\u300CI want to see the beautiful scenery with you.\u300D\n\u7F8E\u3057\u3044\u666F\u8272\u3092\u3042\u306A\u305F\u3068\u898B\u306B\u884C\u304D\u305F\u3044\u3067\u3059\u3002\n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14674,7 +14731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: When is convenient for you?
+  storyText: "\u821E\u5993\u300CWhen is convenient for you?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14701,7 +14758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: Have you been to Kiyomizudera?
+  storyText: "\u821E\u5993\u300CHave you been to Kiyomizudera?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14828,7 +14885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: "It's a good shop.\n\u3044\u3044\u5E97\u3067\u3059\u306D\u3002\u3002"
+  storyText: "\u821E\u5993\u300CIt's a good shop.\u300D\n\u300C\u3044\u3044\u5E97\u3067\u3059\u306D\u3002\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14855,7 +14912,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: Would you like to go and have some tea?
+  storyText: "\u821E\u5993\u300CWould you like to go and have some tea?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -14968,6 +15025,27 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1755499970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 425
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 692503558}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &1755499971
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14982,7 +15060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: What are you going to do now?
+  storyText: "\u821E\u5993\u300CWhat are you going to do now?\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15109,7 +15187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: "Oh! Me too.\n\u304A\u304A\u3001\u79C1\u3082\u3067\u3059"
+  storyText: "\u821E\u5993\u300COh! Me too.\u300D\n\u300C\u304A\u304A\u3001\u79C1\u3082\u3067\u3059\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15136,7 +15214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 143
   indentLevel: 0
-  storyText: Please tell me the way.
+  storyText: "\u821E\u5993\u300CPlease tell me the way.\u300D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -15426,9 +15504,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1024.163
-    y: 1465.6134
-    width: 134.35374
+    x: 1022.1222
+    y: 1467.6542
+    width: 149.39395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15437,6 +15515,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499970}
   - {fileID: 1755499953}
   - {fileID: 1755499958}
   - {fileID: 1755499957}
@@ -15458,8 +15537,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1006.511
-    y: 1226.0145
-    width: 134.35374
+    y: 1229.2404
+    width: 149.39395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15468,8 +15547,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1755499992}
   - {fileID: 1755499964}
   - {fileID: 1755499879}
+  - {fileID: 1755499993}
   - {fileID: 1755499959}
   - {fileID: 1755499963}
   - {fileID: 1755499962}
@@ -15489,9 +15570,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 975.5322
+    x: 978.75806
     y: 979.6295
-    width: 134.35374
+    width: 149.39395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15521,7 +15602,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 977.9795
     y: 707.8406
-    width: 134.35374
+    width: 149.39395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15536,6 +15617,193 @@ MonoBehaviour:
   - {fileID: 1755499974}
   - {fileID: 1755499973}
   - {fileID: 1755499972}
+--- !u!114 &1755499992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 424
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 692503558}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1755499993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 423
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 692503558}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1755499994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 422
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1554102398}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1755499995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 421
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1554102398}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1755499996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 420
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1554102398}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &1755499997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 419
+  indentLevel: 0
+  storyText: "\u5B87\u5B99\u4EBA\u300CThat is because any creature rejects something
+    different from itself.\u300D\n\u305D\u308C\u306F\u3069\u3093\u306A\u751F\u304D\u7269\u3082\u81EA\u5206\u3068\u9055\u3046\u3082\u306E\u3092\u62D2\u7D76\u3059\u308B\u304B\u3089\u3067\u3042\u308B\u3002"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755499998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 418
+  indentLevel: 0
+  storyText: "\u5B87\u5B99\u4EBA\u300CIf you tell me, I will missout you.\u300D\n\u6559\u3048\u308C\u3070\u898B\u9003\u3057\u3066\u3084\u308D\u3046\u3002"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1755499999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755499605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 417
+  indentLevel: 0
+  storyText: "\u5B87\u5B99\u4EBA\u300CI need to know about this land.\u300D\n\u3053\u306E\u5730\u306B\u3064\u3044\u3066\u77E5\u308B\u5FC5\u8981\u304C\u3042\u308B\u3002"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1773172436
 GameObject:
   m_ObjectHideFlags: 0
